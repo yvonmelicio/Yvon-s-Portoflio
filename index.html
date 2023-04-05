@@ -48,6 +48,9 @@
       .footer {
         font-family: "Calistoga", cursive;
       }
+      .carousel-caption {
+        font-family: "Calistoga", cursive;
+      }
     </style>
 
     <title>YVE's Portofolio</title>
@@ -90,12 +93,128 @@
         </div>
       </div>
     </nav>
-    <br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br />
-    <br /><br />
+    <p></p>
+    <!-- Carousel -->
+    <div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
 
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="about.html">
+            <img
+              src="pics/portfolio1.png"
+              alt="ABOUT"
+              class="mx-auto d-block w-60"
+            />
+          </a>
+          <div class="carousel-caption">
+            <a href="about.html" style="text-decoration: none">
+              <h1 style="color: #634b7d; background-color: #f0f6e86a">ABOUT</h1>
+
+              <p style="color: #634b7d; background-color: #f0f6e86a">
+                About the artist
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="works.html">
+            <img
+              src="pics/portfolio2.png"
+              alt="WORKS"
+              class="mx-auto d-block w-60"
+            />
+          </a>
+          <div class="carousel-caption">
+            <a href="works.html" style="text-decoration: none">
+              <h1 style="color: #634b7d; background-color: #f0f6e86a">WORKS</h1>
+              <p style="color: #634b7d; background-color: #f0f6e86a">
+                Yve's Works
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="store.html">
+            <img
+              src="pics/portfolio3.png"
+              alt="STORE"
+              class="mx-auto d-block w-60"
+            />
+          </a>
+          <div class="carousel-caption">
+            <a href="store.html" style="text-decoration: none">
+              <h1 style="color: #634b7d; background-color: #f0f6e86a">STORE</h1>
+              <p style="color: #634b7d; background-color: #f0f6e86a">
+                Buy from the artist
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="contact.html">
+            <img
+              src="pics/portfolio4.png"
+              alt="CONTACT"
+              class="mx-auto d-block w-60"
+            />
+          </a>
+          <div class="carousel-caption">
+            <a href="contact.html" style="text-decoration: none">
+              <h1 style="color: #634b7d; background-color: #f0f6e86a">
+                CONTACT
+              </h1>
+              <p style="color: #634b7d; background-color: #f0f6e86a">
+                Where you can find the artist
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <h6></h6>
     <div class="container-fluid footer">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top"
