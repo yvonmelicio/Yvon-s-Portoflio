@@ -51,9 +51,18 @@
       .carousel-caption {
         font-family: "Calistoga", cursive;
       }
+      .img-hover-zoom {
+        overflow: hidden;
+      }
+      .img-hover-zoom {
+        transition: transform .5s ease;
+      }
+      .img-hover-zoom:hover{
+        transform: scale(1.5);
+      }
     </style>
 
-    <title>YVE's Portofolio</title>
+    <title>Games</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm justify-content-center">
@@ -85,118 +94,59 @@
         id="navbarNavAltMarkup"
       >
         <div class="navbar navbar-nav">
-          <a class="nav-link active" href="index.html"><h4>YVE</h4></a>
+          <a class="nav-link" href="index.html"><h4>YVE</h4></a>
           <a class="nav-link" href="about.html"><h4>ABOUT</h4></a>
-          <a class="nav-link" href="works.html"><h4>WORKS</h4></a>
+          <a class="nav-link active" href="works.html"><h4>WORKS</h4></a>
           <a class="nav-link" href="contact.html"><h4>CONTACT</h4></a>
         </div>
       </div>
     </nav>
-    <p></p>
-    <!-- Carousel -->
-    <div
-      id="demo"
-      class="carousel carousel-dark slide
-      data-bs-ride="carousel"
-    >
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="2"
-        ></button>
+   <br />
+   <div class="container-fluid">
+    <h1 style="font-family: Calistoga, cursive; color: #634b7d; text-align: center;">
+      GAMES
+    </h1>
+    <hr>
+    <br />
+    <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col">
+            <a href="https://yviee.itch.io/codey" style="
+            font-family: Calistoga, cursive;
+            color: #634b7d;
+            text-align: center;
+          " class="img-hover-zoom">
+          <img
+          src="pics/works_games/codey.png"
+          class="mx-auto d-block w-60 img-fluid rounded"
+          />
+            <br />
+              <h4>CODEY</h4>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://yviee.itch.io/edgecode" style="
+            font-family: Calistoga, cursive;
+            color: #634b7d;
+            text-align: center;
+          " 
+            class="img-hover-zoom">
+              <img
+              src="pics/works_games/edgecode.png"
+              class="mx-auto d-block w-60 img-fluid rounded"
+              />
+        <br />
+        <h4>EDGECODE</h4>
+    </a>
+          </div>
+        </div>
       </div>
-
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="about.html">
-            <img
-              src="pics/portfolio1.png"
-              alt="ABOUT"
-              class="mx-auto d-block w-60 img-fluid rounded"
-            />
-          </a>
-          <div class="carousel-caption">
-            <a href="about.html" style="text-decoration: none">
-              <h1 style="color: #634b7d; background-color: #f0f6e86a">ABOUT</h1>
-
-              <p style="color: #634b7d; background-color: #f0f6e86a">
-                About the artist
-              </p>
-            </a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="works.html">
-            <img
-              src="pics/portfolio2.png"
-              alt="WORKS"
-              class="mx-auto d-block w-60 img-fluid rounded"
-            />
-          </a>
-          <div class="carousel-caption">
-            <a href="works.html" style="text-decoration: none">
-              <h1 style="color: #634b7d; background-color: #f0f6e86a">WORKS</h1>
-              <p style="color: #634b7d; background-color: #f0f6e86a">
-                Yve's Works
-              </p>
-            </a>
-          </div>
-        </div>
+      <br><br>
+      <div class="container-fluid justify-content-center">
+        <a href="works.html" style="font-family: Calistoga, cursive; color: #634b7d; text-align: center;"><h2 >OTHER WORKS</h2></a>
         
-        <div class="carousel-item">
-          <a href="contact.html">
-            <img
-              src="pics/portfolio4.png"
-              alt="CONTACT"
-              class="mx-auto d-block w-60 img-fluid rounded"
-            />
-          </a>
-          <div class="carousel-caption">
-            <a href="contact.html" style="text-decoration: none">
-              <h1 style="color: #634b7d; background-color: #f0f6e86a">
-                CONTACT
-              </h1>
-              <p style="color: #634b7d; background-color: #f0f6e86a">
-                Where you can find the artist
-              </p>
-            </a>
-          </div>
-        </div>
       </div>
-
-      <!-- Left and right controls/icons -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-    <h6></h6>
+      <br><br>
     <div class="container-fluid footer">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top"
@@ -234,5 +184,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
   </body>
 </html>
